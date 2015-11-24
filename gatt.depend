@@ -1,0 +1,610 @@
+# depslib dependency file v1.0
+1448398179 source:/home/pi/Desktop/gatt/libgatt/src/att.c
+	"config.h"
+	<errno.h>
+	<stdint.h>
+	<stdlib.h>
+	<glib.h>
+	"bluetooth.h"
+	"uuid.h"
+	"att.h"
+
+1418115028 /usr/include/glib-2.0/glib.h
+	<glib/galloca.h>
+	<glib/garray.h>
+	<glib/gasyncqueue.h>
+	<glib/gatomic.h>
+	<glib/gbacktrace.h>
+	<glib/gbase64.h>
+	<glib/gbitlock.h>
+	<glib/gbookmarkfile.h>
+	<glib/gbytes.h>
+	<glib/gcharset.h>
+	<glib/gchecksum.h>
+	<glib/gconvert.h>
+	<glib/gdataset.h>
+	<glib/gdate.h>
+	<glib/gdatetime.h>
+	<glib/gdir.h>
+	<glib/genviron.h>
+	<glib/gerror.h>
+	<glib/gfileutils.h>
+	<glib/ggettext.h>
+	<glib/ghash.h>
+	<glib/ghmac.h>
+	<glib/ghook.h>
+	<glib/ghostutils.h>
+	<glib/giochannel.h>
+	<glib/gkeyfile.h>
+	<glib/glist.h>
+	<glib/gmacros.h>
+	<glib/gmain.h>
+	<glib/gmappedfile.h>
+	<glib/gmarkup.h>
+	<glib/gmem.h>
+	<glib/gmessages.h>
+	<glib/gnode.h>
+	<glib/goption.h>
+	<glib/gpattern.h>
+	<glib/gpoll.h>
+	<glib/gprimes.h>
+	<glib/gqsort.h>
+	<glib/gquark.h>
+	<glib/gqueue.h>
+	<glib/grand.h>
+	<glib/gregex.h>
+	<glib/gscanner.h>
+	<glib/gsequence.h>
+	<glib/gshell.h>
+	<glib/gslice.h>
+	<glib/gslist.h>
+	<glib/gspawn.h>
+	<glib/gstrfuncs.h>
+	<glib/gstring.h>
+	<glib/gstringchunk.h>
+	<glib/gtestutils.h>
+	<glib/gthread.h>
+	<glib/gthreadpool.h>
+	<glib/gtimer.h>
+	<glib/gtimezone.h>
+	<glib/gtrashstack.h>
+	<glib/gtree.h>
+	<glib/gtypes.h>
+	<glib/gunicode.h>
+	<glib/gurifuncs.h>
+	<glib/gutils.h>
+	<glib/gvarianttype.h>
+	<glib/gvariant.h>
+	<glib/gversion.h>
+	<glib/gversionmacros.h>
+	<glib/gwin32.h>
+	<glib/deprecated/gallocator.h>
+	<glib/deprecated/gcache.h>
+	<glib/deprecated/gcompletion.h>
+	<glib/deprecated/gmain.h>
+	<glib/deprecated/grel.h>
+	<glib/deprecated/gthread.h>
+
+1418115028 /usr/include/glib-2.0/glib/galloca.h
+	<glib/gtypes.h>
+	<alloca.h>
+	<alloca.h>
+	<malloc.h>
+
+1418115029 /usr/include/glib-2.0/glib/gtypes.h
+	<glibconfig.h>
+	<glib/gmacros.h>
+	<glib/gversionmacros.h>
+	<time.h>
+
+1418115028 /usr/lib/arm-linux-gnueabihf/glib-2.0/include/glibconfig.h
+	<glib/gmacros.h>
+	<limits.h>
+	<float.h>
+
+1418115028 /usr/include/glib-2.0/glib/gmacros.h
+	<stddef.h>
+
+1418115029 /usr/include/glib-2.0/glib/gversionmacros.h
+
+1418115028 /usr/include/glib-2.0/glib/garray.h
+	<glib/gtypes.h>
+
+1418115028 /usr/include/glib-2.0/glib/gasyncqueue.h
+	<glib/gthread.h>
+
+1418115029 /usr/include/glib-2.0/glib/gthread.h
+	<glib/gatomic.h>
+	<glib/gerror.h>
+
+1418115028 /usr/include/glib-2.0/glib/gatomic.h
+	<glib/gtypes.h>
+
+1418115028 /usr/include/glib-2.0/glib/gerror.h
+	<stdarg.h>
+	<glib/gquark.h>
+
+1418115029 /usr/include/glib-2.0/glib/gquark.h
+	<glib/gtypes.h>
+
+1418115028 /usr/include/glib-2.0/glib/gbacktrace.h
+	<glib/gtypes.h>
+	<signal.h>
+
+1418115028 /usr/include/glib-2.0/glib/gbase64.h
+	<glib/gtypes.h>
+
+1418115028 /usr/include/glib-2.0/glib/gbitlock.h
+	<glib/gtypes.h>
+
+1418115028 /usr/include/glib-2.0/glib/gbookmarkfile.h
+	<glib/gerror.h>
+	<time.h>
+
+1418115028 /usr/include/glib-2.0/glib/gbytes.h
+	<glib/gtypes.h>
+	<glib/garray.h>
+
+1418115028 /usr/include/glib-2.0/glib/gcharset.h
+	<glib/gtypes.h>
+
+1418115028 /usr/include/glib-2.0/glib/gchecksum.h
+	<glib/gtypes.h>
+	<glib/gbytes.h>
+
+1418115028 /usr/include/glib-2.0/glib/gconvert.h
+	<glib/gerror.h>
+
+1418115028 /usr/include/glib-2.0/glib/gdataset.h
+	<glib/gquark.h>
+
+1418115028 /usr/include/glib-2.0/glib/gdate.h
+	<time.h>
+	<glib/gtypes.h>
+	<glib/gquark.h>
+
+1418115028 /usr/include/glib-2.0/glib/gdatetime.h
+	<glib/gtimezone.h>
+
+1418115029 /usr/include/glib-2.0/glib/gtimezone.h
+	<glib/gtypes.h>
+
+1418115028 /usr/include/glib-2.0/glib/gdir.h
+	<glib/gerror.h>
+	<dirent.h>
+
+1418115028 /usr/include/glib-2.0/glib/genviron.h
+	<glib/gtypes.h>
+
+1418115028 /usr/include/glib-2.0/glib/gfileutils.h
+	<glib/gerror.h>
+
+1418115028 /usr/include/glib-2.0/glib/ggettext.h
+	<glib/gtypes.h>
+
+1418115028 /usr/include/glib-2.0/glib/ghash.h
+	<glib/gtypes.h>
+	<glib/glist.h>
+
+1418115028 /usr/include/glib-2.0/glib/glist.h
+	<glib/gmem.h>
+	<glib/gnode.h>
+
+1418115029 /usr/include/glib-2.0/glib/gmem.h
+	<glib/gtypes.h>
+
+1418115029 /usr/include/glib-2.0/glib/gnode.h
+	<glib/gmem.h>
+
+1418115028 /usr/include/glib-2.0/glib/ghmac.h
+	<glib/gtypes.h>
+	"gchecksum.h"
+
+1418115028 /usr/include/glib-2.0/glib/ghook.h
+	<glib/gmem.h>
+
+1418115028 /usr/include/glib-2.0/glib/ghostutils.h
+	<glib/gtypes.h>
+
+1418115028 /usr/include/glib-2.0/glib/giochannel.h
+	<glib/gconvert.h>
+	<glib/gmain.h>
+	<glib/gstring.h>
+
+1418115028 /usr/include/glib-2.0/glib/gmain.h
+	<glib/gpoll.h>
+	<glib/gslist.h>
+	<glib/gthread.h>
+
+1418115029 /usr/include/glib-2.0/glib/gpoll.h
+	<glib/gtypes.h>
+
+1418115029 /usr/include/glib-2.0/glib/gslist.h
+	<glib/gmem.h>
+	<glib/gnode.h>
+
+1418115029 /usr/include/glib-2.0/glib/gstring.h
+	<glib/gtypes.h>
+	<glib/gunicode.h>
+	<glib/gbytes.h>
+	<glib/gutils.h>
+
+1418115029 /usr/include/glib-2.0/glib/gunicode.h
+	<glib/gerror.h>
+	<glib/gtypes.h>
+
+1418115029 /usr/include/glib-2.0/glib/gutils.h
+	<glib/gtypes.h>
+	<stdarg.h>
+
+1418115028 /usr/include/glib-2.0/glib/gkeyfile.h
+	<glib/gerror.h>
+
+1418115028 /usr/include/glib-2.0/glib/gmappedfile.h
+	<glib/gbytes.h>
+	<glib/gerror.h>
+
+1418115029 /usr/include/glib-2.0/glib/gmarkup.h
+	<stdarg.h>
+	<glib/gerror.h>
+	<glib/gslist.h>
+
+1418115029 /usr/include/glib-2.0/glib/gmessages.h
+	<stdarg.h>
+	<glib/gtypes.h>
+	<glib/gmacros.h>
+
+1418115029 /usr/include/glib-2.0/glib/goption.h
+	<glib/gerror.h>
+	<glib/gquark.h>
+
+1418115029 /usr/include/glib-2.0/glib/gpattern.h
+	<glib/gtypes.h>
+
+1418115029 /usr/include/glib-2.0/glib/gprimes.h
+	<glib/gtypes.h>
+
+1418115029 /usr/include/glib-2.0/glib/gqsort.h
+	<glib/gtypes.h>
+
+1418115029 /usr/include/glib-2.0/glib/gqueue.h
+	<glib/glist.h>
+
+1418115029 /usr/include/glib-2.0/glib/grand.h
+	<glib/gtypes.h>
+
+1418115029 /usr/include/glib-2.0/glib/gregex.h
+	<glib/gerror.h>
+	<glib/gstring.h>
+
+1418115029 /usr/include/glib-2.0/glib/gscanner.h
+	<glib/gdataset.h>
+	<glib/ghash.h>
+
+1418115029 /usr/include/glib-2.0/glib/gsequence.h
+	<glib/gtypes.h>
+
+1418115029 /usr/include/glib-2.0/glib/gshell.h
+	<glib/gerror.h>
+
+1418115029 /usr/include/glib-2.0/glib/gslice.h
+	<glib/gtypes.h>
+
+1418115029 /usr/include/glib-2.0/glib/gspawn.h
+	<glib/gerror.h>
+
+1418115029 /usr/include/glib-2.0/glib/gstrfuncs.h
+	<stdarg.h>
+	<glib/gmacros.h>
+	<glib/gtypes.h>
+
+1418115029 /usr/include/glib-2.0/glib/gstringchunk.h
+	<glib/gtypes.h>
+
+1418115029 /usr/include/glib-2.0/glib/gtestutils.h
+	<glib/gmessages.h>
+	<glib/gstring.h>
+	<glib/gerror.h>
+	<glib/gslist.h>
+
+1418115029 /usr/include/glib-2.0/glib/gthreadpool.h
+	<glib/gthread.h>
+
+1418115029 /usr/include/glib-2.0/glib/gtimer.h
+	<glib/gtypes.h>
+
+1418115029 /usr/include/glib-2.0/glib/gtrashstack.h
+	<glib/gutils.h>
+
+1418115029 /usr/include/glib-2.0/glib/gtree.h
+	<glib/gnode.h>
+
+1418115029 /usr/include/glib-2.0/glib/gurifuncs.h
+	<glib/gtypes.h>
+
+1418115029 /usr/include/glib-2.0/glib/gvarianttype.h
+	<glib/gmessages.h>
+	<glib/gtypes.h>
+
+1418115029 /usr/include/glib-2.0/glib/gvariant.h
+	<glib/gvarianttype.h>
+	<glib/gstring.h>
+	<glib/gbytes.h>
+
+1418115029 /usr/include/glib-2.0/glib/gversion.h
+	<glib/gtypes.h>
+
+1418115029 /usr/include/glib-2.0/glib/gwin32.h
+	<glib/gtypes.h>
+
+1418115028 /usr/include/glib-2.0/glib/deprecated/gallocator.h
+	<glib/gtypes.h>
+
+1418115028 /usr/include/glib-2.0/glib/deprecated/gcache.h
+	<glib/glist.h>
+
+1418115028 /usr/include/glib-2.0/glib/deprecated/gcompletion.h
+	<glib/glist.h>
+
+1418115028 /usr/include/glib-2.0/glib/deprecated/gmain.h
+	<glib/gmain.h>
+
+1418115028 /usr/include/glib-2.0/glib/deprecated/grel.h
+	<glib/gtypes.h>
+
+1418115028 /usr/include/glib-2.0/glib/deprecated/gthread.h
+	<glib/gthread.h>
+	<sys/types.h>
+	<pthread.h>
+
+1448398179 /home/pi/Desktop/gatt/libgatt/src/bluetooth.h
+	<stdio.h>
+	<stdint.h>
+	<string.h>
+	<endian.h>
+	<byteswap.h>
+	<netinet/in.h>
+
+1448398179 /home/pi/Desktop/gatt/libgatt/src/uuid.h
+	<stdint.h>
+	"bluetooth.h"
+
+1448398314 /home/pi/Desktop/gatt/libgatt/src/att.h
+	"bluetooth.h"
+	<uuid.h>
+	<glib.h>
+
+1448398179 source:/home/pi/Desktop/gatt/libgatt/src/bluetooth.c
+	<config.h>
+	<stdio.h>
+	<errno.h>
+	<ctype.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<sys/socket.h>
+	"bluetooth.h"
+	"hci.h"
+
+1448398179 /home/pi/Desktop/gatt/libgatt/src/hci.h
+	<sys/socket.h>
+
+1448398179 source:/home/pi/Desktop/gatt/libgatt/src/btio.c
+	"config.h"
+	<stdarg.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<poll.h>
+	<sys/types.h>
+	<sys/socket.h>
+	"bluetooth.h"
+	"l2cap.h"
+	"rfcomm.h"
+	"sco.h"
+	<glib.h>
+	"btio.h"
+
+1448398179 /home/pi/Desktop/gatt/libgatt/src/l2cap.h
+	<sys/socket.h>
+
+1448398179 /home/pi/Desktop/gatt/libgatt/src/rfcomm.h
+	<sys/socket.h>
+
+1448398179 /home/pi/Desktop/gatt/libgatt/src/sco.h
+
+1448398179 /home/pi/Desktop/gatt/libgatt/src/btio.h
+	<glib.h>
+
+1448399581 source:/home/pi/Desktop/gatt/libgatt/src/gatt.c
+	<config.h>
+	<stdint.h>
+	<stdlib.h>
+	<glib.h>
+	"sdp.h"
+	"sdp_lib.h"
+	"uuid.h"
+	"gattrib.h"
+	"gatt.h"
+
+1448398179 /home/pi/Desktop/gatt/libgatt/src/sdp.h
+	<stdint.h>
+	"bluetooth.h"
+
+1448398179 /home/pi/Desktop/gatt/libgatt/src/sdp_lib.h
+	<sys/socket.h>
+	"bluetooth.h"
+	<bluetooth/hci.h>
+
+1448398179 /home/pi/Desktop/gatt/libgatt/src/gattrib.h
+
+1448398179 /home/pi/Desktop/gatt/libgatt/src/gatt.h
+	"uuid.h"
+	"att.h"
+	"btio.h"
+	"gattrib.h"
+	"sdp.h"
+
+1448399594 source:/home/pi/Desktop/gatt/libgatt/src/gattrib.c
+	"config.h"
+	<stdint.h>
+	<stdbool.h>
+	<string.h>
+	<glib.h>
+	<stdio.h>
+	"bluetooth.h"
+	"btio.h"
+	"uuid.h"
+	"log.h"
+	"att.h"
+	"gattrib.h"
+
+1448398179 /home/pi/Desktop/gatt/libgatt/src/log.h
+
+1448398179 source:/home/pi/Desktop/gatt/libgatt/src/hci.c
+	<config.h>
+	<stdio.h>
+	<errno.h>
+	<fcntl.h>
+	<unistd.h>
+	<stdlib.h>
+	<string.h>
+	<sys/param.h>
+	<sys/uio.h>
+	<sys/poll.h>
+	<sys/types.h>
+	<sys/ioctl.h>
+	<sys/socket.h>
+	"bluetooth.h"
+	"hci.h"
+	"hci_lib.h"
+
+1448398179 /home/pi/Desktop/gatt/libgatt/src/hci_lib.h
+
+1448398179 source:/home/pi/Desktop/gatt/libgatt/src/sdp.c
+	<config.h>
+	<stdio.h>
+	<errno.h>
+	<fcntl.h>
+	<unistd.h>
+	<stdlib.h>
+	<limits.h>
+	<string.h>
+	<syslog.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/un.h>
+	<netinet/in.h>
+	"bluetooth.h"
+	"hci.h"
+	"hci_lib.h"
+	"l2cap.h"
+	"sdp.h"
+	"sdp_lib.h"
+
+1448398179 source:/home/pi/Desktop/gatt/libgatt/src/test.c
+	"utils.h"
+
+1448398179 /home/pi/Desktop/gatt/libgatt/src/utils.h
+	<glib.h>
+	"btio.h"
+
+1448400126 source:/home/pi/Desktop/gatt/libgatt/src/utils.c
+	"config.h"
+	<stdlib.h>
+	"utils.h"
+	"uuid.h"
+	"gattrib.h"
+
+1448398179 source:/home/pi/Desktop/gatt/libgatt/src/uuid.c
+	<config.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	"uuid.h"
+
+1448400461 source:/home/pi/Desktop/gatt/libgatt/src/gatttool.c
+	<config.h>
+	<errno.h>
+	<stdlib.h>
+	<unistd.h>
+	<glib.h>
+	"lib/bluetooth.h"
+	"lib/hci.h"
+	"lib/hci_lib.h"
+	"lib/sdp.h"
+	"lib/uuid.h"
+	"src/shared/util.h"
+	"btio/btio.h"
+	"gattrib.h"
+	"gatt.h"
+	"gatttool.h"
+
+1427809317 /home/pi/Desktop/gatt/lib/bluetooth.h
+	<stdio.h>
+	<stdint.h>
+	<string.h>
+	<endian.h>
+	<byteswap.h>
+	<netinet/in.h>
+
+1451268800 /home/pi/Desktop/gatt/lib/hci.h
+	<sys/socket.h>
+
+1419616482 /home/pi/Desktop/gatt/lib/hci_lib.h
+
+1403289193 /home/pi/Desktop/gatt/lib/sdp.h
+	<stdint.h>
+	<bluetooth/bluetooth.h>
+
+1426068117 /home/pi/Desktop/gatt/lib/uuid.h
+	<stdint.h>
+
+1451268800 /home/pi/Desktop/gatt/src/shared/util.h
+	<stdint.h>
+	<stdlib.h>
+	<alloca.h>
+	<byteswap.h>
+	<string.h>
+
+1375926204 /home/pi/Desktop/gatt/btio/btio.h
+	<glib.h>
+
+1368493448 /home/pi/Desktop/gatt/libgatt/src/gatttool.h
+
+1448400593 source:/home/pi/Desktop/gatt/libgatt/src/interactive.c
+	"config.h"
+	<string.h>
+	<stdlib.h>
+	<stdarg.h>
+	<errno.h>
+	<stdio.h>
+	<unistd.h>
+	<signal.h>
+	<sys/signalfd.h>
+	<glib.h>
+	<readline/readline.h>
+	<readline/history.h>
+	"lib/bluetooth.h"
+	"lib/sdp.h"
+	"lib/uuid.h"
+	"src/shared/util.h"
+	"btio/btio.h"
+	"gattrib.h"
+	"gatt.h"
+	"gatttool.h"
+	"client/display.h"
+
+1426068117 /home/pi/Desktop/gatt/client/display.h
+
+1426068117 source:/home/pi/Desktop/gatt/client/display.c
+	<config.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stdbool.h>
+	<ctype.h>
+	<readline/readline.h>
+	"display.h"
+

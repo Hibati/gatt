@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="gatt" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/gatt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="`pkg-config --cflags --libs dbus-1`  `pkg-config --cflags glib-2.0`" />
+					<Add directory="libgatt/src" />
+					<Add directory="../gatt" />
+				</Compiler>
+				<Linker>
+					<Add option="`pkg-config --libs glib-2.0` `pkg-config --cflags --libs dbus-1` -lreadline" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/gatt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="client/display.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libgatt/src/att.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libgatt/src/att.h" />
+		<Unit filename="libgatt/src/bluetooth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libgatt/src/bluetooth.h" />
+		<Unit filename="libgatt/src/btio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libgatt/src/btio.h" />
+		<Unit filename="libgatt/src/gatt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libgatt/src/gatt.h" />
+		<Unit filename="libgatt/src/gattrib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libgatt/src/gattrib.h" />
+		<Unit filename="libgatt/src/gatttool.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libgatt/src/gatttool.h" />
+		<Unit filename="libgatt/src/hci.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libgatt/src/hci.h" />
+		<Unit filename="libgatt/src/hci_lib.h" />
+		<Unit filename="libgatt/src/interactive.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libgatt/src/l2cap.h" />
+		<Unit filename="libgatt/src/log.h" />
+		<Unit filename="libgatt/src/rfcomm.h" />
+		<Unit filename="libgatt/src/sco.h" />
+		<Unit filename="libgatt/src/sdp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libgatt/src/sdp.h" />
+		<Unit filename="libgatt/src/sdp_lib.h" />
+		<Unit filename="libgatt/src/utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libgatt/src/utils.h" />
+		<Unit filename="libgatt/src/uuid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libgatt/src/uuid.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
